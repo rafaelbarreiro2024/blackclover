@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #141414;
+}
+
+
+.photo{
+    column-count: 4;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.photo-item{
+    margin-bottom: 10px;
+    break-inside: avoid;
+    overflow: hidden;
+}
+
+.photo-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.photo-item img:hover{
+    transform: scale(1.05);
+}
